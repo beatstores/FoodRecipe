@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffd48f"
+    tools:context=".Layout">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        app:title="@string/app_name"
+        app:titleTextColor="@android:color/white"
+        app:titleMarginStart="20dp"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        >
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_below="@+id/toolbarUp"
+        android:id="@+id/toolbarUp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffc654"
+
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_arrow_back_black_24dp"
+                android:layout_centerVertical="true"
+                android:visibility="invisible"
+                />
+
+            <SearchView
+                android:id="@+id/nav_search"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:queryHint="@string/search"
+                android:background="@drawable/round_search"
+                android:layout_centerInParent="true"
+                />
+
+<!--            <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--                android:id="@+id/nav_searchs"-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="35dp"-->
+<!--                app:menu="@menu/nav_search"-->
+<!--                android:layout_centerInParent="true"-->
+<!--            />-->
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbarUp2"
+        android:layout_above="@+id/bottom_nav"
+        />
+
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_bar"
+        app:itemIconSize="@dimen/icon_size"
+        android:padding="10dp"
+
+        />
+</RelativeLayout>

@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">Kickshaw</string>
+    <string name="title">Make Your Own Dish Now!</string>
+    <string name="login"> Login </string>
+    <string name="register"> Register </string>
+    <string name="username"> Username </string>
+    <string name="password"> Password </string>
+    <string name="email"> Email </string>
+    <string name="name"> Name </string>
+    <string name="or"> or </string>
+    <string name="retype"> Retype Your Password </string>
+    <string name="toRegis"> Create your account? Sign Up </string>
+    <string name="toLogin"> Have a account? Sign In </string>
+    <string name="home">Home</string>
+    <string name="saved">Saved</string>
+    <string name="profile">Profile</string>
+    <string name="search"> Search Here </string>
+    <string name="search_hint">Masukkan kata</string>
+    <string name="logout"> Logout </string>
+    <string name="change_pass"> Change Password </string>
+
+
+    //complete profile
+    <string name="complete"> Complete Your Profile </string>
+    <string name="profile_img"> Profile Image </string>
+    <string name="country"> Country </string>
+    <string name="gender"> Gender </string>
+    <string name="female"> Female </string>
+    <string name="male"> Male </string>
+
+    //menu
+    <string name="appetizer"> APPETIZER </string>
+    <string name="main"> MAIN COURSE </string>
+    <string name="dessert"> DESSERT </string>
+
+    //categor
+    <string name="egg"> Egg </string>
+    <string name="cheese"> Cheese </string>
+    <string name="milk"> Milk </string>
+    <string name="chicken"> Chicken </string>
+    <string name="fruit"> Fruit </string>
+    <string name="vege"> Vegetables </string>
+    <string name="tips"> Tips &amp; Trick </string>
+
+    //tips and trick
+    <string name="short_desc">Short Description</string>
+    <string name="tips_subject">Subject</string>
+    <string name="content">Content</string>
+    <string name="tips_trick">Tips &amp; Trick: </string>>
+    <string-array name="title">
+        <item>Garlic</item>
+        <item>Egg</item>
+        <item>Salt</item>
+        <item>Crust</item>
+        <item>Lime Leaves</item>
+        <item>Oven</item>
+        <item>Asparagus</item>
+        <item>Using Knife</item>
+    </string-array>
+    <array name="image_list">
+        <item>@drawable/garlic</item>
+        <item>@drawable/egg</item>
+        <item>@drawable/salt</item>
+        <item>@drawable/crust</item>
+        <item>@drawable/lime_leaves</item>
+        <item>@drawable/oven</item>
+        <item>@drawable/asparagus</item>
+        <item>@drawable/knife</item>
+    </array>
+
+    <string-array name="short_description">
+        <item>Have I cooked garlic properly\? Customize with these tips!</item>
+        <item>Basic ingredients that are often used. If you want to get a denser texture, follow these instructions!</item>
+        <item>Kitchen spices used by a million people. but, whether its function is only as a seasoning\?</item>
+        <item>Damage your pot or pan when cleaning the crust\? try it this way!</item>
+        <item>Want to get a delicious taste that is worth the scent\? Try this one!</item>
+        <item>Save more power and maximize your oven\'s potential this way!</item>
+        <item>Want to keep your asparagus in good shape\? Look how we put it!</item>
+        <item>Ouch! I cut my finger again. Follow this method to save your fingers!</item>
+    </string-array>
+
+    <string-array name="content">
+        <item>
+            \t\t\t\t\tOne of the kitchen materials that is often used is getting the wrong help in its processing. Many add garlic to saute first and then mix it with other ingredients that you want to cook. Garlic has little water content so we saute this ingredient in the beginning, then the garlic will quickly burn and dry, giving rise to a bitter taste. So, stir-fry the garlic just before the main ingredient will be cooked. If we cook something that is soupy, this is not a problem because water can prevent the garlic from burning.\n\n
+            \t\t\t\t\tDifficult to peel garlic\? Put the garlic under the knife surface, then apply pressure with your hands. This will detach the onion skin and you can easily get rid of it.
+        </item>
+
+        <item>
+            \t\t\t\t\tWhen making omelets, we often add salt and other seasonings when we are shaking them. Actually it is not too problematic because people\'s tastes are different. But, this will cause the eggs to be thinner and the texture not firm. This is because salt reacts with egg protein.
+        </item>
+
+        <item>
+            \t\t\t\t\tAdd salt to the water before you will boil anything. This is not part of the seasoning, but it is useful to stabilize the temperature of the water, because when we mix an ingredient, especially from a refrigerator, the temperature of the material will reduce the temperature of the boiled water, so it takes more time for the water temperature to reach its ideal temperature for boiling.
+\n\n
+            \t\t\t\t\tAdd salt when you want to crush an ingredient (usually making chili sauce). This will be useful to facilitate us in grinding the material because the texture of salt is able to help smooth the material
+        </item>
+
+        <item>
+            \t\t\t\t\tWhen cooking, it can cause crust on the surface of the pan for a reason. To clean it, boil hot water in the pan, then stir with a little force to remove the crust. Then the pan will be easily cleaned
+        </item>
+
+        <item>
+            \t\t\t\t\tIf you need orange leaves in cooking, be careful, because if you are not careful, they can cause bitter and bitter taste when bitten. To avoid this, remove the stem and bone of the middle leaf from the orange leaf. They are the cause of the bitter taste
+        </item>
+
+        <item>
+           \t\t\t\t\tWhen you use the oven, maybe you will realize that there is space at the bottom where you bake. Usually, you will use that space to store various equipment. Use that space to store the food you want to heat together when you subscribe to something. The heat from the oven can bake your cooking and simultaneously warm the food you put underneath.
+        </item>
+
+        <item>
+            \t\t\t\t\tStore asparagus properly. Do not let you store it horizontally, because the tip will bend up. Place it vertically. This will keep your asparagus straight.
+        </item>
+
+        <item>
+            \t\t\t\t\tThere is a difference between chopping ingredients other than meat (chopping) and cutting (cutting). When you cut, don\'t let your finger come out of your hand! Hide your fingers, imagine your hand resembling a cat\'s hand. This will avoid the risk of your hands getting cut.
+            \n\n \t\t\t\t\tWhen chopping, make sure your knife is big enough. Then place your hand and fingers on the knife and the sharp edge facing the material you want to cut. Then, let the tip of your knife become a fulcrum and chop your food with the tip of the knife to form a sharp angle (45 degrees). You will chop like professionals!
+        </item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="skip">skip</string>
+    <string name="edit">Edit</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete Account</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="note">Notes</string>
+    <string name="recipe_note">Recipe Note</string>
+    <string name="note_subtitle">Make Your Own Recipe Note Here</string>
+    <string name="add_note">Add New Note</string>
+    <string name="note_name">Type Your Food Name</string>
+    <string name="total_time">Total Time</string>
+    <string name="serving">Time to Serving</string>
+    <string name="add">Add</string>
+    <string name="Ingredients">Ingredients</string>
+    <string name="how_cook">How To Cook?</string>
+</resources>

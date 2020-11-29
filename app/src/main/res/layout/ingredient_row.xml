@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ing_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/ing_sum"
+            android:src="@mipmap/ic_launcher"
+            android:background="@null"/>
+
+        <TextView
+            android:id="@+id/ing_name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/ing_img"
+            android:text="ingredient"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ing_sum"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:text="total"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>

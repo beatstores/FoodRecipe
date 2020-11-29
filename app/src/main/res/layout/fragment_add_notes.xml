@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNotes">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_note"
+            android:textSize="40dp"
+            android:fontFamily="@font/maxwell_bold"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/note_food"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/note_name"
+            />
+
+        <EditText
+            android:id="@+id/note_total"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/total_time"
+            />
+
+        <EditText
+            android:id="@+id/note_serving"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/serving"
+            />
+
+        <Spinner
+            android:id="@+id/note_categories"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/note_ingredients"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Ingredients"
+            />
+
+        <Button
+            android:id="@+id/add_ingredient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            />
+
+        <EditText
+            android:id="@+id/how_cook"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:lines="10"
+            android:hint="@string/how_cook"
+            />
+
+        <Button
+            android:id="@+id/add_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            />
+
+    </LinearLayout>
+
+
+</FrameLayout>

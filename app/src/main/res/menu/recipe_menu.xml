@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/saveNav"
+        android:icon="@drawable/bookmark"
+        android:title="Saved"
+        />
+
+    <item
+        android:id="@+id/loveNav"
+        android:icon="@drawable/like"
+        android:title="Love"
+        />
+
+    <item
+        android:id="@+id/shareNav"
+        android:icon="@drawable/share"
+        android:title="Share"/>
+
+</menu>

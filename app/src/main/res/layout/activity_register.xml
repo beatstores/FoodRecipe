@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backlogin"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#9cffdd99"
+        android:gravity="center_vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/JudulRegis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textSize="100sp"
+            android:fontFamily="@font/adora"
+            android:gravity="center"
+            android:textColor="@android:color/holo_orange_light"
+            android:textStyle="bold"
+
+
+            />
+
+        <EditText
+            android:id="@+id/nameRegis"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/name"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            />
+
+
+        <EditText
+            android:id="@+id/emailRegis"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/email"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/passwordRegis"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/key"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/repasswordRegis"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/retype"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/retype"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/buttonRegis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/radius"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/maxwell_bold"
+            android:textSize="30sp"
+            android:padding="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/goToLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#0cffdd99"
+            android:fontFamily="@font/maxwell_bold"
+            android:text="@string/toLogin"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            />
+
+        ></LinearLayout>
+
+</RelativeLayout>
